@@ -13,7 +13,7 @@
 상용 킥보드(LGO-C250PRO)를 직접 분해·개조해서 헬멧 착용 감지, 방향지시등, 다중 탑승 방지, 헬멧 보관함 제어까지 4가지 안전 기능을 하나의 시스템으로 통합한 졸업 프로젝트입니다. 실제 주행 환경에서 직접 테스트하고 데이터를 측정했습니다.
 
 <!-- 전체 시스템 사진 (킥보드 + 헬멧 전경) -->
-![전체 시스템](screenshots/system_overview.png)
+<img width="800" height="500" alt="KakaoTalk_20260421_191232941_08" src="https://github.com/user-attachments/assets/f6ed0fb8-3b58-4fff-b658-20b3b94b0f08" />
 
 ---
 
@@ -50,7 +50,7 @@
 ```
 
 <!-- 시스템 구성도 또는 회로도 사진 -->
-![시스템 구성도](screenshots/system_diagram.png)
+<img width="800" height="550" alt="KakaoTalk_20260421_191232941" src="https://github.com/user-attachments/assets/9e500e02-9c7f-47cd-a677-cca0fa0767ad" />
 
 ---
 
@@ -59,7 +59,7 @@
 ### 1. 헬멧 착용 감지 + 모터 제어
 
 <!-- 헬멧 센서 부착 사진 -->
-![헬멧 착용 감지](screenshots/helmet_sensor.png)
+<img width="500" height="500" alt="KakaoTalk_20260421_191232941_07" src="https://github.com/user-attachments/assets/eef1179b-99f4-4f3d-99e1-230abb96ff8a" />
 
 헬멧 턱끈과 측두부에 정전식 터치 센서(TTP223B)를 각각 부착했습니다. 두 센서가 **동시에** 피부에 접촉될 때만 정상 착용으로 판단합니다. 한 곳만 닿는 경우(예: 헬멧을 손에 들고 있는 경우)는 미착용으로 처리해 오인식을 방지합니다.
 
@@ -153,7 +153,7 @@
 두 조건을 모두 충족해야만 잠금이 활성화되므로, 헬멧 없이 문만 닫거나 RFID 태그만 가져다 댄 경우는 잠금 버튼이 뜨지 않습니다.
 
 <!-- 앱 화면 스크린샷 -->
-<img width="350" height="500" alt="어플" src="https://github.com/user-attachments/assets/c12940b1-fed9-40b9-bfbc-f1da7494402d" />
+<img width="350" height="600" alt="어플" src="https://github.com/user-attachments/assets/c12940b1-fed9-40b9-bfbc-f1da7494402d" />
 
 | 센서 | 유효 감지 거리 |
 |------|----------------|
