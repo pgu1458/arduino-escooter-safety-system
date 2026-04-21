@@ -161,11 +161,16 @@
 두 조건을 모두 충족해야만 잠금이 활성화되므로, 헬멧 없이 문만 닫거나 RFID 태그만 가져다 댄 경우는 잠금 버튼이 뜨지 않습니다.
 
 
+| 메인 | 일기 작성 | 버킷리스트 | 통계 |
+|------|-----------|-----------|------|
+
+
+
 
 | 센서 | 유효 감지 거리 |
 |------|----------------|
-| MFRC522 RFID | 3.6cm 이내 |
-| A3144E 홀 센서 | 0.5cm 이내 |
+| MFRC522 RFID | 3.6cm 이내 |<img width="350" height="350" alt="RFID 인식률" src="https://github.com/user-attachments/assets/c0e9a787-c1e0-480f-a34e-f56922eaf969" />|
+| A3144E 홀 센서 | 0.5cm 이내 |<img width="350" height="350" alt="홀센서인식률" src="https://github.com/user-attachments/assets/fa28d309-ba5c-4ce7-8353-8bf44ca0fbbd" />|
 
 <img width="450" height="350" alt="홀센서인식률" src="https://github.com/user-attachments/assets/ca0e525d-8b45-4e6f-83b7-c3119a64788a" />
 
