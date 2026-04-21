@@ -75,7 +75,7 @@
 | 턱끈 + 측두부 (최종) | 92% |
 
 
-<img width="500" height="500" alt="터치센서위치에따른인식률" src="https://github.com/user-attachments/assets/2facc8b6-91ac-49b7-b5d8-77271c3a81c5" />
+<img width="450" height="350" alt="터치센서위치에따른인식률" src="https://github.com/user-attachments/assets/2facc8b6-91ac-49b7-b5d8-77271c3a81c5" />
 
 
 
