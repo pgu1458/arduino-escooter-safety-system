@@ -173,6 +173,11 @@
 
 
 
+| RFID 인식률 | 홀센서 인식률 |
+|-------------|----------------|
+| <img width="350" height="350" alt="RFID 인식률" src="https://github.com/user-attachments/assets/366d768c-cb13-484c-9bc1-37c78a35ccc9" />| <img width="350" height="350" alt="홀센서인식률" src="https://github.com/user-attachments/assets/7ed9850a-a63a-401e-8b80-909df39a52df" /> |
+
+
 
 ---
 
