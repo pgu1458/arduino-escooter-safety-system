@@ -88,15 +88,15 @@
 | 평균 응답시간 | 397.9ms |
 | 측정 방법 | 240fps 고속촬영 프레임 분석 |
 
-<!-- 고속카메라 측정 장면 또는 응답시간 측정 결과 사진 -->
-![응답시간 측정](screenshots/response_time.png)
+
 
 ---
 
 ### 2. 헬멧 방향지시등
 
 <!-- 헬멧 LCD 방향 표시 사진 -->
-![방향지시등](screenshots/turn_signal.png)
+<img width="400" height="200" alt="방향" src="https://github.com/user-attachments/assets/ddf49e77-de7c-440b-ad21-5fafe3181512" />
+
 
 킥보드에는 사이드미러가 없어 뒤차가 방향 전환을 예측하기 어렵습니다. 특히 야간 주행 시 위험도가 높아집니다. 이를 해결하기 위해 헬멧 뒤쪽에 LCD를 부착하고, 조향 방향을 실시간으로 표시합니다.
 
@@ -110,12 +110,15 @@
 | **0.24초** | **가장 자연스러운 전환 (최종 채택)** |
 | 0.40초 | 실제 전환보다 표시 지연 |
 
+<img width="450" height="350" alt="방향지시등 딜레이" src="https://github.com/user-attachments/assets/e0c3d18e-9576-4215-a5bd-8fb64c2bb698" />
+
+
 ---
 
 ### 3. 다중 탑승 방지
 
 <!-- 압력 센서 발판 배치 사진 -->
-![다중 탑승 방지](screenshots/dual_ride.png)
+<img width="450" height="350" alt="다중" src="https://github.com/user-attachments/assets/36bac6ab-cbe7-44fa-a18b-2fd5dc7cc709" />
 
 킥보드 발판 네 귀퉁이에 압력 센서(SZH-SEN01)를 배치했습니다. 1인이 탑승할 경우 4개 센서를 동시에 모두 밟기 어렵도록 센서 간격을 설계했습니다. 4개 센서가 모두 임계값(약 50)을 초과하면 2인 이상 탑승으로 판단하고 부저를 울립니다.
 
@@ -128,12 +131,15 @@
 | 대응 방식 | 부저 경고음 출력 |
 | 감지 정확도 | 약 95% |
 
+<img width="450" height="350" alt="다중방지" src="https://github.com/user-attachments/assets/fe5a6806-521a-44c8-86eb-2e14b8d5c052" />
+
+
 ---
 
 ### 4. 헬멧 보관함 제어
 
 <!-- 헬멧 보관함 외관 및 내부 사진 -->
-![헬멧 보관함](screenshots/helmet_box.png)
+<img width="450" height="350" alt="KakaoTalk_20260421_191232941_05" src="https://github.com/user-attachments/assets/f4c8956a-c1f0-47a4-b58d-28773915eeb4" />
 
 헬멧에 RFID 태그를 부착하고, 보관함 내부에 MFRC522 리더기와 A3144E 홀 센서를 설치했습니다. 헬멧을 보관함에 넣고 문을 닫으면 두 조건이 모두 충족될 때만 App Inventor로 제작한 앱에서 잠금 버튼이 활성화됩니다.
 
@@ -141,15 +147,21 @@
 - RFID 인식: 헬멧 태그가 리더기 3.6cm 이내에 있을 것
 - 홀 센서 감지: 자석이 0.5cm 이내로 근접할 것 (문이 완전히 닫혔을 때)
 
+
+
+
 두 조건을 모두 충족해야만 잠금이 활성화되므로, 헬멧 없이 문만 닫거나 RFID 태그만 가져다 댄 경우는 잠금 버튼이 뜨지 않습니다.
 
 <!-- 앱 화면 스크린샷 -->
-![보관함 제어 앱](screenshots/app_lock.png)
+<img width="350" height="500" alt="어플" src="https://github.com/user-attachments/assets/c12940b1-fed9-40b9-bfbc-f1da7494402d" />
 
 | 센서 | 유효 감지 거리 |
 |------|----------------|
 | MFRC522 RFID | 3.6cm 이내 |
 | A3144E 홀 센서 | 0.5cm 이내 |
+
+<img width="450" height="350" alt="홀센서인식률" src="https://github.com/user-attachments/assets/ca0e525d-8b45-4e6f-83b7-c3119a64788a" />
+
 
 ---
 
@@ -167,8 +179,7 @@
 
 **15m 이내에서 안정적**으로 동작합니다. 킥보드와 헬멧 간 거리가 20m 이상 벌어지면 통신이 끊겨 모터도 자동으로 차단됩니다. 헬멧 없이 킥보드만 가져가는 상황을 어느 정도 방지할 수 있습니다.
 
-<!-- 블루투스 거리 테스트 현장 사진 -->
-![블루투스 거리 테스트](screenshots/bt_range_test.png)
+
 
 ---
 
@@ -188,8 +199,8 @@
 | KY-023 조이스틱 | 속도 입력 |
 | ULN2003 스텝모터 | 보관함 잠금 장치 구동 |
 
-<!-- 하드웨어 부품 배치 사진 -->
-![하드웨어 구성](screenshots/hardware.png)
+
+
 
 **전원 분리 설계**
 
